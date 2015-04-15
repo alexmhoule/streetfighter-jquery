@@ -16,6 +16,7 @@ body {
 	width:659px;
 	height:494px;
 	float: left;
+	overflow: hidden;
 }
 
 .ryu-ready,
