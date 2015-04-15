@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-	var isHovered = false;
-	var hasPlayed = false;
+	var isHovered = false,
+	 hasPlayed = false;
 
 	$('.ryu').mouseenter(function() {
 		isHovered = true;
@@ -72,7 +72,7 @@ $(document).keydown(function (event) {
 	if (event.keyCode == 88) {
 
 		hasPlayed = false;
-		
+		$('#cool')[0].pause();
 		$('.ryu-cool').hide();
 		$('ryu-throwing').hide();
 		if(isHovered==true) {
