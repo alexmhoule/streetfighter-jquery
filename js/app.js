@@ -41,6 +41,9 @@ function playHadouken () {
 $(document).keydown(function (event) {
 	if (event.keyCode == 88) {
 		$('.ryu-ready').hide();
+		$('.ryu-still').hide();
+		$('ryu-throwing').hide();
+		$('hadouken').hide();
       	$('.ryu-cool').show();
 	}
 }).keyup (function (event) {

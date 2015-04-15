@@ -51,7 +51,8 @@ body {
 .hadouken,
 .ryu-ready,
 .ryu-still,
-.ryu-throwing {
+.ryu-throwing,
+.ryu-cool {
 	background-repeat: no-repeat;
 }
 
@@ -66,4 +67,19 @@ body {
 	top: 166px;
 	left: 625px;
 }
+
+.text {
+	text-align: center;
+	position: absolute;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 75px;
+}
+
+.test {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
 
