@@ -77,11 +77,11 @@ $(document).keydown(function (event) {
 		$('ryu-throwing').hide();
 		$('ryu-still').show();
 		if(isHovered==true) {
-			$('ryu-ready').show();
-			$('ryu-still').hide();
+			$('.ryu-ready').show();
+			$('.ryu-still').hide();
 		} else {
-			$('ryu-still').show();
-			$('ryu-ready').hide();
+			$('.ryu-still').show();
+			$('.ryu-ready').hide();
 		}
 	}
 });
